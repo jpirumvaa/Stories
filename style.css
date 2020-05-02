@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+	background-color:#D5DBDB ;
+	margin-bottom: 50px;
+}
+figure{
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: none;
+	margin: 0;
+}
+.pack, .time, .note, .sale{
+	background-image: linear-gradient(to bottom, yellow, green);	
+}
+.note{
+	padding-left: 12px;
+}
+.break-it, .message, .pie, .pin{
+	background-image: linear-gradient(to bottom, #85C1E9 , green)
+}
+.money, .announce, .tie, .cart{
+	background-image: linear-gradient(to bottom, #D7BDE2, #27AE60 )
+}
+h2{
+	font-size: 20px;
+	color: #2C3E50;
+}
+
+figcaption{
+	background-color: #ECF0F1;
+	padding: 20px;
+	font-size; 17px;
+}
+img{
+	padding: 40px;
+	position: sticky;
+	top: 0;
+}
+h1{
+	text-align: center;
+}
